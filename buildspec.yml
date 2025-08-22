@@ -1,11 +1,4 @@
 version: 0.2
-phases:
-install:
-runtime-versions:
-nodejs: 20
-commands:
-- echo Installing dependencies...
-- npm ci || npm installversion: 0.2
 
 phases:
   install:
